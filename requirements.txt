@@ -1,5 +1,4 @@
 Django==2.2.0
 gunicorn==19.7.1
 django_heroku
-pytz==2017.3
 whitenoise==3.3.1
