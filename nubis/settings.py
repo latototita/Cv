@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '=$d-mj447^k-_%*k8&3vm3asd0ocp$h4jpu(!o8b7z0ms_cogm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['resumelaban.herokuapp.com']
 
