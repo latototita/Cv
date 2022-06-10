@@ -6,7 +6,7 @@ def index(request):
     message = request.POST.get('message')
     name = request.POST.get('name')
     email = request.POST.get('email')
-    
+    context={}
     if request.method=='POST':
         message=f'{message}............\nreply to {email}\nBy name {name}'
         send_mail(subject,
